@@ -1,0 +1,306 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 120%;
+	background: #F8F8FF;	
+    background-color: #e5e5e5;
+    background-size: cover;
+}
+
+.index {
+	font-size: 120%;
+	background: #00a2e8;
+    background-size: cover;
+
+}
+.signup {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #87ceeb;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	margin-top: 120px;
+}
+.ssignup {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #87ceeb;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	margin-top: 80px;
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #87ceeb;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	margin-top: 100px;
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #00a2e8
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 65px;
+}
+
+.btn:hover {background-color: #ADD8E6}
+
+.btn:active {
+  background-color: #ADD8E6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00a2e8;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* The Modal (background) */
+.modal-form {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #555;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    z-index: 1;
+    background-color: #64acc5;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close-modal {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close-modal:hover, .close-modal:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.btns::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 600px) {
+    .btns .cancelbtn,
+    .btns .submit {
+        width: 100%;
+    }
+}
+footer {
+    width: 100%;
+    font-size: .85em;
+    background-color: #64acc5;
+    padding: 10px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.btns button, .submit {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btns button:hover {
+    opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.btns .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+/* Float cancel and add buttons and add an equal width */
+.btns .cancelbtn, .btns .submit {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements and issue page form*/
+.form-content, .form-issue {
+    padding: 1em;
+}
+.homebtn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.homebtn:hover {
+  background-color: RoyalBlue;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #64acc5;
+  overflow: hidden;
+}
+.topnav h2 {
+  text-align: center;
+  margin-right: 190px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00a2e8;
+  color: white;
+}
+.toph {
+	text-align: center;
+  margin-right: 190px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #f2f2f2;
+}
